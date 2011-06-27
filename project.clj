@@ -7,7 +7,7 @@ records on a distributed filesystem."
   :dependencies [[org.clojure/clojure "1.2.1"]
                  [org.clojure/clojure-contrib "1.2.0"]
                  [jvyaml "1.0.0"]
-                 [com.google.collections/google-collections "1.0"]]
+                 [com.google.guava/guava "r09"]]
   :dev-dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]
                      [junit/junit "3.8.2"]
                      [swank-clojure "1.4.0-SNAPSHOT"]
